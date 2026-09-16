@@ -1,17 +1,13 @@
-# RoboWebSim — Alternate Repository
+# RoboSim / RoboWebSim — Alternate Development Copy
 
-**Project lineage:** RoboWebSim  
 **Status:** retained alternate development copy  
-**Canonical repository:** https://github.com/Joenasriani/robo-web-sim  
+**Current source:** https://github.com/Joenasriani/robo-web-sim  
+**Public game:** https://joenasr.itch.io/robosim  
 **Creator:** Joe Nasr  
-**Creator identity:** https://joe-nasr-signals.vercel.app/v2/
+**Creator profile:** https://joe-nasr-signals.vercel.app/v2/
 
-The current default branch of this repository contains the **RoboWebSim** browser robotics-learning simulator codebase. It shares the same application architecture and core source as `Joenasriani/robo-web-sim`.
+RoboSim is the public game title. RoboWebSim is the current source-project name for the browser robotics-learning simulator.
 
-For current source provenance, documentation and search indexing, use `Joenasriani/robo-web-sim` as the canonical repository.
+This repository contains an alternate development copy of that codebase. For the current source, documentation and implementation record, use `Joenasriani/robo-web-sim`.
 
-## Important game distinction
-
-Joe Nasr also published an itch.io project named **RoboSim**. The current default branch here should not be used as source evidence for that separate public game build because this branch presently contains RoboWebSim simulator code.
-
-Older branches and repository history are retained and are not being deleted.
+Older branches and repository history are retained as development history.
