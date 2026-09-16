@@ -5,9 +5,9 @@ const canonicalUrl = 'https://joenasr.itch.io/robosim';
 const personId = 'https://joe-nasr-signals.vercel.app/v2/#joe-nasr';
 
 export const metadata: Metadata = {
-  title: 'RoboSim | Joe Nasr',
+  title: 'RoboSim | Robot Programming Simulation Game',
   description:
-    'RoboSim is Joe Nasr’s browser-based educational robot simulation game for programming logic, sequencing, debugging and simulated robot navigation.',
+    'Browser-based educational robot simulation game for programming logic, sequencing, debugging and simulated robot navigation.',
   authors: [{ name: 'Joe Nasr', url: 'https://joe-nasr-signals.vercel.app/v2/' }],
   creator: 'Joe Nasr',
   robots: {
@@ -19,16 +19,16 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    title: 'RoboSim | Joe Nasr',
+    title: 'RoboSim | Robot Programming Simulation Game',
     description:
-      'Browser-based robot simulation game for programming logic, sequencing, debugging and simulated navigation.',
+      'Program, sequence, debug and simulate robot navigation in a browser-based educational game.',
     url: canonicalUrl,
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'RoboSim | Joe Nasr',
+    title: 'RoboSim | Robot Programming Simulation Game',
     description:
-      'Browser-based robot simulation game for programming logic, sequencing, debugging and simulated navigation.',
+      'Program, sequence, debug and simulate robot navigation in a browser-based educational game.',
   },
 };
 
@@ -39,7 +39,7 @@ const gameSchema = {
   name: 'RoboSim',
   url: canonicalUrl,
   description:
-    'RoboSim is a browser-based educational robot simulation game for programming logic, sequencing, debugging and simulated robot navigation.',
+    'Browser-based educational robot simulation game for programming logic, sequencing, debugging and simulated robot navigation.',
   genre: ['Educational', 'Simulation'],
   gamePlatform: 'Web browser',
   inLanguage: 'en',
