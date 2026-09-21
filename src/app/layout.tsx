@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 const canonicalUrl = 'https://joenasr.itch.io/robosim';
-const personId = 'https://joe-nasr-signals.vercel.app/v2/#joe-nasr';
+const personId = 'https://joe-nasr-signals.vercel.app/#joe-nasr';
 
 export const metadata: Metadata = {
   title: 'RoboSim | Robot Programming Simulation Game',
   description:
     'Browser-based educational robot simulation game for programming logic, sequencing, debugging and simulated robot navigation.',
-  authors: [{ name: 'Joe Nasr', url: 'https://joe-nasr-signals.vercel.app/v2/' }],
+  authors: [{ name: 'Joe Nasr', url: 'https://joe-nasr-signals.vercel.app/' }],
   creator: 'Joe Nasr',
   robots: {
     index: true,
@@ -48,7 +48,7 @@ const gameSchema = {
     '@id': personId,
     name: 'Joe Nasr',
     alternateName: ['Joe Ribal Nasr', 'Joseph Ribal Nasr'],
-    url: 'https://joe-nasr-signals.vercel.app/v2/',
+    url: 'https://joe-nasr-signals.vercel.app/',
   },
   sameAs: ['https://github.com/Joenasriani/robosim'],
 };
